@@ -1,4 +1,4 @@
-# 从 URL 一键安装同步包
+﻿# 从 URL 一键安装同步包
 # 用法（在那台电脑的 PowerShell 里粘贴一行即可）：
 #   powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr '<本脚本直链>' -OutFile $env:TEMP\i.ps1; & $env:TEMP\i.ps1 -Url '<加密包直链>'"
 # 会在安装前询问密码；安装完成后会提示重启 DSH。
